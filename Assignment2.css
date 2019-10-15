@@ -1,6 +1,6 @@
 body{
 	color:black;
-	background-color:black;
+	background-color:white;
 }
 #wrapper{
 	width:1000px;
@@ -9,38 +9,52 @@ body{
 }
 .box{
   border:purple 4px dashed;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
-}
+	padding-left: 20px;
+	margin: auto;
 }
 #title{
 font-weight: bold;
 text-transform: uppercase;
 color: white;
-font-size: 20px;
+font-size: 25px;
 font-family:sans-serif;
 text-align: center;
 background-color: gray;
 }
 #header{
-font-size: 15px;
+font-size: 20px;
 text-decoration: underline;
+text-align: center;
 }
-#P1{
+#menu{
+	width:25px;
+	height:25px;
+	background-color:black;
+	position: fixed;
+
+}
+.P1{
 font-weight: bold;
-font-size: 12px;
+font-size: 16px;
+padding-left:50px;
+position: absolute;
 }
-#list1{
+.div1{
+	font-size: 20px;
+}
+.list1{
 	font-family: monospace;
 	color: red;
 }
-#list2{
+.list2{
 	font-family: monospace;
 	color: green;
 }
-#P2{
+.P2{
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 16px;
 }
 #Images{
 text-align: center;
@@ -51,4 +65,16 @@ object-fit: contain;
 .image{
 	object-fit: contain;
 	width: 1000px;
+}
+.P3{
+	text-align: center;
+	font-size: 25px;
+}
+.P1,.P2,.P3{
+color: brown;
+}
+.P4{
+	text-align: center;
+	font-size: 25px;
+	position: relative;
 }
