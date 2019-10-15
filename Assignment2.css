@@ -1,0 +1,54 @@
+body{
+	color:black;
+	background-color:black;
+}
+#wrapper{
+	width:1000px;
+	margin:0 auto;
+	background-color:white;
+}
+.box{
+  border:purple 4px dashed;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+}
+#title{
+font-weight: bold;
+text-transform: uppercase;
+color: white;
+font-size: 20px;
+font-family:sans-serif;
+text-align: center;
+background-color: gray;
+}
+#header{
+font-size: 15px;
+text-decoration: underline;
+}
+#P1{
+font-weight: bold;
+font-size: 12px;
+}
+#list1{
+	font-family: monospace;
+	color: red;
+}
+#list2{
+	font-family: monospace;
+	color: green;
+}
+#P2{
+	font-weight: bold;
+	font-size: 12px;
+}
+#Images{
+text-align: center;
+font-style: italic;
+font-size: 20px;
+object-fit: contain;
+}
+.image{
+	object-fit: contain;
+	width: 1000px;
+}
